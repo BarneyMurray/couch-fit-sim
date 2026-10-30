@@ -4,14 +4,10 @@ A static website that checks whether a sofa (or any box-shaped object) can be mo
 
 ## Run it
 
-No build step and no server code. Either open `index.html` directly in a browser, or serve the folder:
-
 ```sh
 python3 -m http.server 8000
 # then open http://localhost:8000
 ```
-
-To publish it, upload the whole folder to any static host (GitHub Pages, Netlify, Cloudflare Pages, S3).
 
 ## Files
 
